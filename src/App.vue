@@ -1,5 +1,5 @@
 <template>
-    <div class="justify-center flex bg-blue-400 items-center">
+    <div class="flex bg-blue-400 h-screen">
     <div class="text-4xl flex-row  w-11/12">
       <div class="bg-gray-900 "> 
           Testing
