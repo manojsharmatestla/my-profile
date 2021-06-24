@@ -1,7 +1,9 @@
 <template>
     <div class="justify-center flex bg-blue-400 items-center h-screen">
     <div class="text-4xl">
-      profile
+      <div class="bg-gray-900 flex-row w-11/12"> 
+          Testing
+      </div>
     </div>
   </div>
 </template>
