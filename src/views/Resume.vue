@@ -12,331 +12,262 @@
         </div>
       </section>
     </div>
-      <section class="mx-20 mb-10">
-        <div class=" text-white  justify-between">
-          <div class="">
-            <p class="text-xl font-bold text-left">Experience</p>
-            <p class="border-b-4 w-14 border-green-800 mt-2 mb-10"></p>
-            <div class="grid-rows-2 grid grid-cols-2 gap-4">
-              <div class="mt-5 pb-10 ">
-                <div class="flex flex-row justify-items-start">
-                  <div
-                    class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                  >
-                    <p class="text-sm text-center">December, 2019 - current</p>
-                  </div>
-                  <div
-                    class="flex flex-col ml-5 text-left text-sm text-gray-400 "
-                  >
-                    <p class="mt-1 font-semibold text-white">
-                      Mercedes-benz.io
-                    </p>
-                    <p class="font-semibold text-left">Berlin, Germany</p>
-                  </div>
-                </div>
-
-                <div class="timeline-border border-gray-600 ml-10">
-                  <div class="flex flex-col text-left text-lg pl-10 ">
-                    <p class="text-lg pt-5 font-bold mb-2 underline">
-                      QA Engineer
-                    </p>
-                    <ul class="flex flex-col text-base break-words">
-                      <li>
-                        <p>Ecommerce domain – SAP Hybris core platform.</p>
-                      </li>
-                      <li>
-                        Working on specifying and designing the QA hooks within
-                        the product code build and deployment.
-                      </li>
-                      <li>Creating QA pipeline.</li>
-                      <li>
-                        Working on designing the new API Automation using
-                        Karate- API framework.
-                      </li>
-                      <li>
-                        Working on designing UI automation framework using
-                        webdriver.io
-                      </li>
-                      <li>
-                        Recruitment support. Analysing recruitment challenge and
-                        taking interviews.
-                      </li>
-                    </ul>
-                  </div>
+    <section class="mx-20 mb-10">
+      <div class=" text-white  justify-between">
+        <div class="">
+          <p class="text-2xl font-extrabold text-left">Experience</p>
+          <p class="border-b-4 w-14 border-green-800 mt-2 mb-10"></p>
+          <div class="grid-rows-2 grid grid-cols-2 gap-4">
+            <div class="mt-5 pb-10 ">
+              <div class="flex flex-row justify-items-start">
+                <Capsule msg="December, 2019 - current" />
+                <div
+                  class="flex flex-col ml-5 text-left text-sm text-gray-400 "
+                >
+                  <p class="mt-1 font-semibold text-white">
+                    Mercedes-benz.io
+                  </p>
+                  <p class="font-semibold text-left">Berlin, Germany</p>
                 </div>
               </div>
 
-              <div class="mt-5">
-                <div class="flex flex-row justify-items-start">
-                  <div
-                    class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                  >
-                    <p class="text-sm text-center">
-                      November, 2018 - December, 2019
-                    </p>
-                  </div>
-                  <div
-                    class="flex flex-col ml-5 text-left text-sm text-gray-400 "
-                  >
-                    <p class="mt-1 font-semibold text-white">Wayfair</p>
-                    <p class="font-semibold text-left">Stuttgart, Germany</p>
-                  </div>
+              <div class="timeline-border border-gray-600 ml-10">
+                <div class="flex flex-col text-left text-lg pl-10 ">
+                  <p class="text-lg pt-5 font-bold mb-2 underline">
+                    QA Engineer
+                  </p>
+                  <ul class="text-base break-words list-disc">
+                    <li>Ecommerce domain – SAP Hybris core platform.</li>
+                    <li>
+                      Working on specifying and designing the QA hooks within
+                      the product code build and deployment.
+                    </li>
+                    <li>Creating QA pipeline.</li>
+                    <li>
+                      Working on designing the new API Automation using Karate-
+                      API framework.
+                    </li>
+                    <li>
+                      Working on designing UI automation framework using
+                      webdriver.io
+                    </li>
+                    <li>
+                      Recruitment support. Analysing recruitment challenge and
+                      taking interviews.
+                    </li>
+                  </ul>
                 </div>
+              </div>
+            </div>
 
-                <div class="timeline-border border-gray-600 ml-10">
-                  <div class="flex flex-col text-left text-lg pl-10 ">
-                    <p class="text-lg pt-5 font-bold mb-2 underline">
-                      QA Analyst
-                    </p>
-                    <ul class="flex flex-col text-base break-words">
-                      <li>
-                        Ecommerce domain – Supplier order processing and
-                        fulfillment.
-                      </li>
-                      <li>
-                        Working on specifying and designing the QA process
-                        within the team.
-                      </li>
-                      <li>Creating QA pipeline.</li>
-                      <li>
-                        Working on designing the new Automation Framework for UI
-                        and API.
-                      </li>
-                      <li>
-                        Giving presentation and training to new joiners about
-                        Testing and Automation.
-                      </li>
-                    </ul>
-                  </div>
+            <div class="mt-5">
+              <div class="flex flex-row justify-items-start">
+                <Capsule msg="November, 2018 - December, 2019" />
+                <div
+                  class="flex flex-col ml-5 text-left text-sm text-gray-400 "
+                >
+                  <p class="mt-1 font-semibold text-white">Wayfair</p>
+                  <p class="font-semibold text-left">Stuttgart, Germany</p>
                 </div>
               </div>
 
-
-              <div class="mt-5">
-                <div class="flex flex-row justify-items-start">
-                  <div
-                    class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                  >
-                    <p class="text-sm text-center">
-                      December, 2011 - October, 2018
-                    </p>
-                  </div>
-                  <div
-                    class="flex flex-col ml-5 text-left text-sm text-gray-400 "
-                  >
-                    <p class="mt-1 font-semibold text-white">BMC Software</p>
-                    <p class="font-semibold text-left">Pune, India</p>
-                  </div>
+              <div class="timeline-border border-gray-600 ml-10">
+                <div class="flex flex-col text-left text-lg pl-10 ">
+                  <p class="text-lg pt-5 font-bold mb-2 underline">
+                    QA Analyst
+                  </p>
+                  <ul class="flex flex-col text-base break-words list-disc">
+                    <li>
+                      Ecommerce domain – Supplier order processing and
+                      fulfillment.
+                    </li>
+                    <li>
+                      Working on specifying and designing the QA process within
+                      the team.
+                    </li>
+                    <li>Creating QA pipeline.</li>
+                    <li>
+                      Working on designing the new Automation Framework for UI
+                      and API.
+                    </li>
+                    <li>
+                      Giving presentation and training to new joiners about
+                      Testing and Automation.
+                    </li>
+                  </ul>
                 </div>
+              </div>
+            </div>
 
-                <div class="timeline-border border-gray-600 ml-10">
-                  <div class="flex flex-col text-left text-lg pl-10 ">
-                    <p class="text-lg pt-5 font-bold mb-2 underline">
-                      Senior QA Engineer
-                    </p>
-                    <ul class="flex flex-col text-base break-words">
-                      <li>
-                        Ecommerce domain – Supplier order processing and
-                        fulfillment.
-                      </li>
-                      <li>
-                        Working on specifying and designing the QA process
-                        within the team.
-                      </li>
-                      <li>Creating QA pipeline.</li>
-                      <li>
-                        Working on designing the new Automation Framework for UI
-                        and API.
-                      </li>
-                      <li>
-                        Giving presentation and training to new joiners about
-                        Testing and Automation.
-                      </li>
-                    </ul>
-                  </div>
+            <div class="mt-5">
+              <div class="flex flex-row justify-items-start">
+                <Capsule msg="December, 2011 - October, 2018" />
+                <div
+                  class="flex flex-col ml-5 text-left text-sm text-gray-400 "
+                >
+                  <p class="mt-1 font-semibold text-white">BMC Software</p>
+                  <p class="font-semibold text-left">Pune, India</p>
                 </div>
               </div>
 
-
-              <div class="mt-5">
-                <div class="flex flex-row justify-items-start">
-                  <div
-                    class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                  >
-                    <p class="text-sm text-center">
-                      September, 2008 - December, 2011
-                    </p>
-                  </div>
-                  <div
-                    class="flex flex-col ml-5 text-left text-sm text-gray-400 "
-                  >
-                    <p class="mt-1 font-semibold text-white">Persistent Systems</p>
-                    <p class="font-semibold text-left">Pune, India</p>
-                  </div>
+              <div class="timeline-border border-gray-600 ml-10">
+                <div class="flex flex-col text-left text-lg pl-10 ">
+                  <p class="text-lg pt-5 font-bold mb-2 underline">
+                    Senior QA Engineer
+                  </p>
+                  <ul class="flex flex-col text-base break-words list-disc">
+                    <li>
+                      Working on Microservices testing and automation.
+                    </li>
+                    <li>
+                      Working on Next Gen SaaS Platform domain (ITIL).
+                    </li>
+                    <li>Creating QA pipeline.</li>
+                    <li>
+                      Working with team of 15+ Quality Assurance Engineers.
+                    </li>
+                    <li>
+                      Leading the Automation team of 10+ Engineers.
+                    </li>
+                    <li>
+                      Working with QA Architect on designing the new Automation
+                      Framework.
+                    </li>
+                    <li>
+                      Automation QA code reviews and technical support on
+                      Automation to the team.
+                    </li>
+                    <li>
+                      Automation Code Coverage and Use Case Coverage.
+                    </li>
+                    <li>
+                      Created CD/CI pipeline for Automation code in GitHub using
+                      Jenkins.
+                    </li>
+                    <li>
+                      Migrated Automation code to Github from “perforce”
+                      sourcing tool by re-structing the monolith Automation
+                      code.
+                    </li>
+                  </ul>
                 </div>
+              </div>
+            </div>
 
-                <div class="timeline-border border-gray-600 ml-10">
-                  <div class="flex flex-col text-left text-lg pl-10 ">
-                    <p class="text-lg pt-5 font-bold mb-2 underline">
-                      Senior Software Engineer - QA
-                    </p>
-                    <ul class="flex flex-col text-base break-words">
-                      <li>
-                        Email Messaging, Telecom domain.
-                      </li>
-                      <li>
-                        OS Platform Used: Linux.
-                      </li>
-                      <li>Worked as Server Side, UI and Automation QA.</li>
-                      <li>
-                        Worked as Deployment QA, helped/trained customers in Deploying the product.
-                      </li>
-                      <li>
-                        Worked at client location in US to setup Deployment Lab for testing Deployment Architecture.
-                      </li>
-                    </ul>
-                  </div>
+            <div class="mt-5">
+              <div class="flex flex-row justify-items-start">
+                <Capsule msg="September, 2008 - December, 2011" />
+                <div
+                  class="flex flex-col ml-5 text-left text-sm text-gray-400 "
+                >
+                  <p class="mt-1 font-semibold text-white">
+                    Persistent Systems
+                  </p>
+                  <p class="font-semibold text-left">Pune, India</p>
                 </div>
               </div>
 
+              <div class="timeline-border border-gray-600 ml-10">
+                <div class="flex flex-col text-left text-lg pl-10 ">
+                  <p class="text-lg pt-5 font-bold mb-2 underline">
+                    Senior Software Engineer - QA
+                  </p>
+                  <ul class="flex flex-col text-base break-words list-disc">
+                    <li>
+                      Email Messaging, Telecom domain.
+                    </li>
+                    <li>
+                      OS Platform Used: Linux.
+                    </li>
+                    <li>Worked as Server Side, UI and Automation QA.</li>
+                    <li>
+                      Worked as Deployment QA, helped/trained customers in
+                      Deploying the product.
+                    </li>
+                    <li>
+                      Worked at client location in US to setup Deployment Lab
+                      for testing Deployment Architecture.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="mx-20 mb-10 text-white mt-14">
+      <div>
+        <p class="text-2xl font-extrabold text-left">Technical Skills</p>
+        <p class="border-b-4 w-14 border-green-800 mt-2"></p>
 
+        <div class="mt-5">
+          <div class="flex flex-row justify-items-start">
+            <div class="flex flex-col ml-5 text-left text-sm text-gray-400 ">
+              <p class="mt-1 font-semibold text-white mb-5">
+                Language(s) Known :
+              </p>
+            </div>
+            <div class="flex flex-row pl-5">
+              <Capsule msg="Java" />
+              <Capsule msg="Python" />
+              <Capsule msg="Javascript" />
+              <Capsule msg="Typescript - Begineer" />
             </div>
           </div>
         </div>
-      </section>
 
-
-      <section class="mx-20 mb-10 text-white">
-        <div>
-          <p class="text-xl font-bold text-left">Technical Skills</p>
-          <p class="border-b-4 w-14 border-green-800 mt-2"></p>
-
-        
-          <div class="mt-5">
-            <div class="flex flex-row justify-items-start">
-              <div class="flex flex-col ml-5 text-left text-sm text-gray-400 ">
-                <p class="mt-1 font-semibold text-white mb-5">
-                  Language(s) Known :
-                </p>
-              </div>
-              <div class="flex flex-row pl-5">
-                <div
-                  class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                >
-                  <p class="text-sm text-center">Java</p>
-                </div>
-                <div
-                  class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                >
-                  <p class="text-sm text-center">Python</p>
-                </div>
-                <div
-                  class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                >
-                  <p class="text-sm text-center">Javascript</p>
-                </div>
-                <div
-                  class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                >
-                  <p class="text-sm text-center">Typescript - Begineer</p>
-                </div>
-              </div>
+        <div class="mt-10">
+          <div class="flex flex-row justify-items-start">
+            <div class="ml-5 text-sm text-gray-400 ">
+              <p class="mt-1 font-semibold text-white mb-5">
+                Automation Tool(s) :
+              </p>
+            </div>
+            <div class="flex flex-row pl-5">           
+              <Capsule msg="Selenium" />
+              <Capsule msg="Webdriver.io" />
+              <Capsule msg="Rest Assured" />
+              <Capsule msg="Karate API" />
+              <Capsule msg="TestNG" />
+              <Capsule msg="Junit5" />
             </div>
           </div>
-
-          <div class="mt-10">
-            <div class="flex flex-row justify-items-start">
-              <div class="ml-5 text-sm text-gray-400 ">
-                <p class="mt-1 font-semibold text-white mb-5">
-                  Automation Tool(s) :
-                </p>
-              </div>
-              <div class="flex flex-row pl-5">
-                <div
-                  class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                >
-                  <p class="text-sm text-center">Selenium</p>
-                </div>
-                <div
-                  class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                >
-                  <p class="text-sm text-center">Rest Assured</p>
-                </div>
-                <div
-                  class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                >
-                  <p class="text-sm text-center">TestNG</p>
-                </div>
-                <div
-                  class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                >
-                  <p class="text-sm text-center">Junit5</p>
-                </div>
-                <div
-                  class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                >
-                  <p class="text-sm text-center">Karate API</p>
-                </div>
-                <div
-                  class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                >
-                  <p class="text-sm text-center">Webdriver.io</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="mt-10">
-            <div class="flex flex-row justify-items-start">
-              <div class="flex flex-col ml-5 text-left text-sm text-gray-400 ">
-                <p class="mt-1 font-semibold text-white mb-5">
-                  DevOps Tool(s) :
-                </p>
-              </div>
-              <div class="flex flex-row pl-5">
-                <div
-                  class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                >
-                  <p class="text-sm text-center">Docker</p>
-                </div>
-                <div
-                  class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                >
-                  <p class="text-sm text-center">CI/CD using Jenkins</p>
-                </div>
-                <div
-                  class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                >
-                  <p class="text-sm text-center">Github</p>
-                </div>
-                <div
-                  class=" ring-2 p-2 rounded-full mr-5 pl-4 pr-4 font-semibold ring-blue-400 my-auto"
-                >
-                  <p class="text-sm text-center">Kubernetes</p>
-                </div>
-                
-
-              </div>
-            </div>
-          </div>
-
-
-
-
         </div>
-      </section>
+
+        <div class="mt-10">
+          <div class="flex flex-row justify-items-start">
+            <div class="flex flex-col ml-5 text-left text-sm text-gray-400 ">
+              <p class="mt-1 font-semibold text-white mb-5">
+                DevOps Tool(s) :
+              </p>
+            </div>
+            <div class="flex flex-row pl-5">    
+              <Capsule msg="Docker" />
+              <Capsule msg="Kubernetes" />
+              <Capsule msg="CI/CD using Jenkins" />
+              <Capsule msg="Github" />
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import Capsule from "../components/capsule.vue";
 
 export default defineComponent({
   name: "Resume",
   props: {
     msg: String,
+  },
+  components: {
+    Capsule,
   },
 });
 </script>
@@ -345,14 +276,7 @@ export default defineComponent({
 h3 {
   margin: 40px 0 0;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
+
 a {
   color: #42b983;
 }
