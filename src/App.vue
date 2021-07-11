@@ -6,17 +6,17 @@
           <div class="flex text-lg">
             <div class="flex-col flex-auto justify-items-start">
               <p
-                class="justify-items-start mx-0 w-60 font-bold text-2xl text-white uppercase"
+                class="justify-items-start mx-0 w-60 font-bold text-2x uppercase bg-clip-text text-transparent bg-gradient-to-l from-red-600 to-yellow-500 "
               >
                 Manoj  Sharma
               </p>
             </div>
             <div class="flex-col">
               <ul class="flex justify-items-end text-white">
-                <router-link to="/"><li class="px-5">About Me</li></router-link>
-                <router-link to="/resume" class="px-5">Resume</router-link>
-                <li class="px-5">About</li>
-                <li class="px-5">Contact</li>
+                <router-link to="/"><li class="px-5 transition ease-out duration-500 transform hover:text-yellow-300 hover:underline font-bold hover:scale-105">About Me</li></router-link>
+                <router-link to="/resume" class="px-5 transition ease-out duration-500 transform hover:text-yellow-300 hover:underline font-bold hover:scale-105">Resume</router-link>
+                <li class="px-5 transition ease-out duration-500 transform hover:text-yellow-300 hover:underline font-bold hover:scale-105">About</li>
+                <li class="px-5 transition ease-out duration-500 transform hover:text-yellow-300 hover:underline font-bold hover:scale-105">Contact</li>
               </ul>
             </div>
           </div>
