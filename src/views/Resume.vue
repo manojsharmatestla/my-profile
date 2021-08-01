@@ -5,8 +5,10 @@
     >
       <section class="w-3/4 m-auto ">
         <div class="flex flex-row">
-          <p class="flex-1 text-left text-white font-bold ">Resume</p>
-          <p class="text-gray-300 text-lg text-right">
+          <p class="flex-1 text-left text-white font-bold">Resume</p>
+          <p
+            class="bg-clip-text text-transparent bg-gradient-to-l from-red-600 to-yellow-500 text-lg text-right font-semibold"
+          >
             10+ Years of Experience
           </p>
         </div>
@@ -15,8 +17,22 @@
     <section class="mx-20 mb-10">
       <div class=" text-white  justify-between">
         <div class="">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-8 w-8 animate-bounce text-yellow-600"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3.586L7.707 9.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 10.586V7z"
+              clip-rule="evenodd"
+            />
+          </svg>
           <p class="text-2xl font-extrabold text-left">Experience</p>
-          <p class="border-b-4 w-14 border-green-800 mt-2 mb-10"></p>
+          <div
+            class="h-2 w-14  mt-2 mb-5 rounded text-transparent bg-gradient-to-l from-red-600 to-yellow-500"
+          ></div>
           <div class="grid-rows-2 grid grid-cols-2 gap-4">
             <div class="mt-5 pb-10 ">
               <div class="flex flex-row justify-items-start">
@@ -24,10 +40,12 @@
                 <div
                   class="flex flex-col ml-5 text-left text-sm text-gray-400 "
                 >
-                  <p class="mt-1 font-semibold text-white">
+                  <p
+                    class="bg-clip-text text-transparent bg-gradient-to-l from-blue-600 to-green-500 mt-1 font-bold text-lg"
+                  >
                     Mercedes-benz.io
                   </p>
-                  <p class="font-semibold text-left">Berlin, Germany</p>
+                  <p class="font-semibold text-left">Stuttgart, Germany</p>
                 </div>
               </div>
 
@@ -44,8 +62,8 @@
                     </li>
                     <li>Creating QA pipeline.</li>
                     <li>
-                      Working on designing the new API Automation using Karate-
-                      API framework.
+                      Working on designing the multiple API Automation
+                      frameworks.
                     </li>
                     <li>
                       Working on designing UI automation framework using
@@ -66,8 +84,12 @@
                 <div
                   class="flex flex-col ml-5 text-left text-sm text-gray-400 "
                 >
-                  <p class="mt-1 font-semibold text-white">Wayfair</p>
-                  <p class="font-semibold text-left">Stuttgart, Germany</p>
+                  <p
+                    class="bg-clip-text text-transparent bg-gradient-to-l from-red-600 to-yellow-500 mt-1 font-semibold text-lg"
+                  >
+                    Wayfair GmbH
+                  </p>
+                  <p class="font-semibold text-left">Berlin, Germany</p>
                 </div>
               </div>
 
@@ -105,7 +127,11 @@
                 <div
                   class="flex flex-col ml-5 text-left text-sm text-gray-400 "
                 >
-                  <p class="mt-1 font-semibold text-white">BMC Software</p>
+                  <p
+                    class="bg-clip-text text-transparent bg-gradient-to-l from-red-600 to-yellow-500 mt-1 font-semibold text-lg"
+                  >
+                    BMC Software
+                  </p>
                   <p class="font-semibold text-left">Pune, India</p>
                 </div>
               </div>
@@ -160,7 +186,9 @@
                 <div
                   class="flex flex-col ml-5 text-left text-sm text-gray-400 "
                 >
-                  <p class="mt-1 font-semibold text-white">
+                  <p
+                    class="bg-clip-text text-transparent bg-gradient-to-l from-red-600 to-yellow-500 mt-1 font-semibold text-lg"
+                  >
                     Persistent Systems
                   </p>
                   <p class="font-semibold text-left">Pune, India</p>
@@ -172,7 +200,9 @@
                   <p class="text-lg pt-5 font-bold mb-2 underline">
                     Senior Software Engineer - QA
                   </p>
-                  <ul class="flex flex-col text-base break-words list-disc">
+                  <ul
+                    class="flex flex-col text-base break-words list-disc text-gray-300"
+                  >
                     <li>
                       Email Messaging, Telecom domain.
                     </li>
@@ -198,58 +228,132 @@
     </section>
 
     <section class="mx-20 mb-10 text-white mt-14">
-      <div>
-        <p class="text-2xl font-extrabold text-left">Technical Skills</p>
-        <p class="border-b-4 w-14 border-green-800 mt-2"></p>
+      <div class="flex flex-col flex-auto">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-8 w-8 animate-bounce text-yellow-600"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3.586L7.707 9.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 10.586V7z"
+            clip-rule="evenodd"
+          />
+        </svg>
+        <p class=" text-2xl font-extrabold text-left ">Technical Skills</p>
+        <div
+          class="h-2 w-16 mt-2 rounded text-transparent bg-gradient-to-l from-red-600 to-yellow-500"
+        ></div>
 
         <div class="mt-5">
           <div class="flex flex-row justify-items-start">
             <div class="flex flex-col ml-5 text-left text-sm text-gray-400 ">
-              <p class="mt-1 font-semibold text-white mb-5">
+              <p class="mt-1 font-semibold text-gray-400 mb-2 text-base">
                 Language(s) Known :
               </p>
             </div>
             <div class="flex flex-row pl-5">
-              <Capsule msg="Java" />
-              <Capsule msg="Python" />
-              <Capsule msg="Javascript" />
-              <Capsule msg="Typescript - Begineer" />
+              <p
+                class="font-semibold text-base mr-2 text-transparent bg-clip-text bg-gradient-to-l from-red-600 to-yellow-500"
+              >
+                Java,
+              </p>
+              <p
+                class="font-semibold text-base mr-2 text-transparent bg-clip-text bg-gradient-to-l from-green-800 to-green-500"
+              >
+                Python,
+              </p>
+              <p
+                class="font-semibold text-base mr-2 text-transparent bg-clip-text bg-gradient-to-l from-yellow-600 to-yellow-300"
+              >
+                Javascript,
+              </p>
+              <p
+                class="font-semibold text-base text-transparent bg-clip-text bg-gradient-to-l from-blue-600 to-green-500"
+              >
+                Typescript - Begineer
+              </p>
             </div>
           </div>
         </div>
 
-        <div class="mt-10">
+        <div class="mt-1">
           <div class="flex flex-row justify-items-start">
             <div class="ml-5 text-sm text-gray-400 ">
-              <p class="mt-1 font-semibold text-white mb-5">
+              <p class="mt-1 font-semibold text-gray-400 mb-2 text-base">
                 Automation Tool(s) :
               </p>
             </div>
-            <div class="flex flex-row pl-5">           
-              <Capsule msg="Selenium" />
-              <Capsule msg="Webdriver.io" />
-              <Capsule msg="Rest Assured" />
-              <Capsule msg="Karate API" />
-              <Capsule msg="TestNG" />
-              <Capsule msg="Junit5" />
+            <div class="flex flex-row pl-5 flex-wrap">
+              <p
+                class="font-semibold text-base mr-2 text-transparent bg-clip-text bg-gradient-to-l from-red-600 to-yellow-500"
+              >
+                Selenium,
+              </p>
+              <p
+                class="font-semibold text-base mr-2 text-transparent bg-clip-text bg-gradient-to-l from-green-800 to-green-500"
+              >
+                Webdriver.io,
+              </p>
+              <p
+                class="font-semibold text-base mr-2 text-transparent bg-clip-text bg-gradient-to-l from-yellow-600 to-yellow-300"
+              >
+                Rest Assured,
+              </p>
+              <p
+                class="font-semibold text-base mr-2 text-transparent bg-clip-text bg-gradient-to-l from-blue-600 to-green-500"
+              >
+                Serenity BDD,
+              </p>
+              <p
+                class="font-semibold text-base mr-2 text-transparent bg-clip-text bg-gradient-to-l from-red-600 to-yellow-500"
+              >
+                Karate API,
+              </p>
+              <p
+                class="font-semibold text-base mr-2 text-transparent bg-clip-text bg-gradient-to-l from-green-800 to-green-500"
+              >
+                TestNG,
+              </p>
+              <p
+                class="font-semibold text-base mr-2 text-transparent bg-clip-text bg-gradient-to-l from-yellow-600 to-yellow-300"
+              >
+                Junit
+              </p>
             </div>
           </div>
         </div>
 
-        <div class="mt-10">
+        <div class="mt-1">
           <div class="flex flex-row justify-items-start">
             <div class="flex flex-col ml-5 text-left text-sm text-gray-400 ">
-              <p class="mt-1 font-semibold text-white mb-5">
+              <p class="mt-1 font-semibold text-gray-400 mb-5 text-base">
                 DevOps Tool(s) :
               </p>
             </div>
-            <div class="flex flex-row pl-5">    
-              <Capsule msg="Docker" />
-              <Capsule msg="Kubernetes" />
-              <Capsule msg="CI/CD using Jenkins" />
-              <Capsule msg="Github" />
+            <div class="flex flex-row pl-5">
+              <p
+                class="font-semibold text-base mr-2 text-transparent bg-clip-text bg-gradient-to-l from-red-600 to-yellow-500"
+              >
+                Docker,
+              </p>
+              <p
+                class="font-semibold text-base mr-2 text-transparent bg-clip-text bg-gradient-to-l from-green-800 to-green-500"
+              >
+                Kubernetes,
+              </p>
+              <p
+                class="font-semibold text-base mr-2 text-transparent bg-clip-text bg-gradient-to-l from-yellow-600 to-yellow-300"
+              >
+                Github,
+              </p>
+              <p
+                class="font-semibold text-base mr-2 text-transparent bg-clip-text bg-gradient-to-l from-blue-600 to-green-500"
+              >
+                CI/CD using Jenkins
+              </p>
             </div>
-
           </div>
         </div>
       </div>
@@ -273,13 +377,6 @@ export default defineComponent({
 </script>
 
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-
-a {
-  color: #42b983;
-}
 .timeline-border {
   border-left: 1px solid #373838;
 }
