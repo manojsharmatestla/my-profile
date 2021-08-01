@@ -1,5 +1,7 @@
 <template>
-  <div class="justify-center flex bg-blue-400 h-full box-content">
+  <div
+    class="justify-center flex h-full box-content bg-transparent bg-gradient-to-tl from-blue-900 to-green-900"
+  >
     <div class="text-4xl flex-col w-3/4 py-20 justify-center">
       <div class="bg-gray-900 rounded-3xl pt-10">
         <nav class="px-10 pb-20">
@@ -8,15 +10,31 @@
               <p
                 class="justify-items-start mx-0 w-60 font-bold text-2x uppercase bg-clip-text text-transparent bg-gradient-to-l from-red-600 to-yellow-500 "
               >
-                Manoj  Sharma
+                Manoj Sharma
               </p>
             </div>
             <div class="flex-col">
               <ul class="flex justify-items-end text-white">
-                <router-link to="/"><li class="px-5 transition ease-out duration-500 transform hover:text-yellow-300 hover:underline font-bold hover:scale-105">About Me</li></router-link>
-                <router-link to="/resume" class="px-5 transition ease-out duration-500 transform hover:text-yellow-300 hover:underline font-bold hover:scale-105">Resume</router-link>
-                <li class="px-5 transition ease-out duration-500 transform hover:text-yellow-300 hover:underline font-bold hover:scale-105">About</li>
-                <li class="px-5 transition ease-out duration-500 transform hover:text-yellow-300 hover:underline font-bold hover:scale-105">Contact</li>
+                <router-link
+                  to="/"
+                  class="px-5 transition ease-out duration-500 transform hover:text-yellow-300 font-bold hover:scale-105 active:text-yellow-300 focus:text-yellow-300"
+                  >About Me</router-link
+                >
+                <router-link
+                  to="/resume"
+                  class="px-5 transition ease-out duration-500 transform hover:text-yellow-300 font-bold hover:scale-105 focus:text-yellow-300"
+                  >Resume</router-link
+                >
+                <li
+                  class="px-5 transition ease-out duration-500 transform hover:text-yellow-300  font-bold hover:scale-105 focus:text-yellow-300"
+                >
+                  About
+                </li>
+                <li
+                  class="px-5 transition ease-out duration-500 transform hover:text-yellow-300  font-bold hover:scale- focus:text-yellow-300"
+                >
+                  Contact
+                </li>
               </ul>
             </div>
           </div>
@@ -27,7 +45,12 @@
         >
           <div class="flex flex-row">
             <div class="flex flex-row flex-1">
-              <p class="mr-5">LinkedIn</p>
+              <a
+                class="mr-5"
+                href="https://www.linkedin.com/in/manoj-s-a0184117/"
+                target="_blank"
+                >LinkedIn</a
+              >
               <p>twitter</p>
             </div>
             <div>
